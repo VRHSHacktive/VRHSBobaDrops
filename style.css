@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
+      format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')
+      format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff')
+      format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff2')
+      format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')
+      format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')
+      format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.img_sml{
+    width: 75px;
+}
+
+.img_lrg{
+    width: 300px;
+}
+
+.divv{
+    width: 500px;
+    height: 300px;
+    border: 10px orange;
+    border-style: double;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.logos{
+    padding-top:30px;
+    background-color:rgb(180, 0, 0);
+    height:250px;
+}
+.grad{
+    background-image:linear-gradient(rgb(180, 0, 0), rgb(105, 0, 0));
+    height:100px;
+}
+
+body{
+    margin:0;
+    text-align: center;
+    font-family: "Phantom Sans";
+    background-color:rgb(105, 0, 0);
+    color:rgb(255, 181, 121)
+}
+
+button{
+    margin:10px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:10px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:burlywood;
+}
